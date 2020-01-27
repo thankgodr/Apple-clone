@@ -7,8 +7,6 @@
 - HTML,
 - CSS,
 
-## Live Demo
-
 
 ## Authors
 
