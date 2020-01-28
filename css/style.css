@@ -120,6 +120,11 @@ body {
   flex: 1;
 }
 
+.footerImageContainer > div > a >img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .footerLinksWrapper > div {
   margin-bottom: 0;
 }
