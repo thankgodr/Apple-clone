@@ -116,6 +116,10 @@ body {
   text-align: center;
 }
 
+.footerImageContainer > div {
+  flex: 1;
+}
+
 .footerLinksWrapper > div {
   margin-bottom: 0;
 }
@@ -169,10 +173,6 @@ body {
 
 .footerLinks > li:first-of-type {
   border-left: none;
-}
-
-.footerImageContainer > div {
-  flex: 1;
 }
 
 .flexBreak {
