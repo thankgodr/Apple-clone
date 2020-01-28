@@ -171,6 +171,10 @@ body {
   border-left: none;
 }
 
+.footerImageContainer > div {
+  flex: 1;
+}
+
 .flexBreak {
   flex-basis: 100%;
   width: 0;
