@@ -1,31 +1,28 @@
-nav{
+nav {
   width: 1000px;
   margin: 0 auto;
 }
 
-body{
+body {
   margin: 0;
   width: 100%;
   overflow-x: hidden;
-  font; 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
-
 }
 
 .navContainer {
   display: flex;
   background: #5f5f5f;
   border-radius: 4px;
-
 }
 
-.topDistace{
+.topDistace {
   height: 70px;
   width: 100%;
   clear: both;
 }
 
-.navItem{
+.navItem {
   height: 36px;
   width: 106px;
   text-align: center;
@@ -40,27 +37,26 @@ body{
 }
 
 .navItem:hover {
-  background: linear-gradient(#5f5f5f,#333)
+  background: linear-gradient(#5f5f5f, #333);
 }
 
 .navItem > p > a {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
-
-.navItem:last-of-type{
+.navItem:last-of-type {
   width: 120px;
 }
 
-.searchWrapper{
+.searchWrapper {
   height: 46px;
   width: 123px;
   display: table-cell;
   vertical-align: middle;
 }
 
-.searchWrapper > input{
+.searchWrapper > input {
   border-radius: 12px;
   box-sizing: border-box;
   box-shadow: none !important;
@@ -78,8 +74,8 @@ body{
   outline: none;
 }
 
-.searchWrapper > input::placeholder { 
-  font-family:fontAwesome;
+.searchWrapper > input::placeholder {
+  font-family: fontAwesome, sans-serif;
   color: #fff;
 }
 
@@ -87,7 +83,7 @@ body{
   background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
 }
 
-.middleTextWrapper{
+.middleTextWrapper {
   text-align: center;
   color: #fff;
 }
@@ -100,15 +96,10 @@ body{
 
 .verseText {
   object-position: 19px 19px;
-  margin-bottom: 
 }
 
 .watchStories {
-  object-position: 0px -30px;
-  object-fit: contain;
-}
-
-.watchStories {
+  object-position: 0 -30px;
   object-fit: contain;
   margin-bottom: 64px !important;
 }
@@ -121,11 +112,11 @@ body{
   text-align: center;
 }
 
-.footerLinks{
+.footerLinks {
   display: flex;
   flex-direction: row;
   color: #6e6e6e;
-  font-size: .8334em;
+  font-size: 0.8334em;
   line-height: 1.2;
   justify-content: center;
   text-align: center;
@@ -139,11 +130,11 @@ body{
 
 .footerLinksContain > p {
   color: #6e6e6e;
-  font-size: .8334em;
+  font-size: 0.8334em;
   line-height: 1.2;
 }
 
-.footerLinksContain > p > a{
+.footerLinksContain > p > a {
   text-decoration: none;
   color: #08c;
 }
@@ -151,8 +142,8 @@ body{
 .footerLinks > li {
   list-style: none;
   border-left: 1px solid #6e6e6e;
-  padding-left: .6em;
-  margin-left: .4em;
+  padding-left: 0.6em;
+  margin-left: 0.4em;
   text-align: center;
 }
 
@@ -160,6 +151,7 @@ body{
   text-decoration: none;
   color: #08c;
 }
+
 .footerLinks > li:first-of-type {
   border-left: none;
 }
