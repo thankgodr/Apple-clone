@@ -108,7 +108,6 @@ body {
   object-position: 19px 19px;
 }
 
-
 .imgContainer {
   display: flex;
 }
@@ -116,11 +115,13 @@ body {
 .footerLinksWrapper {
   text-align: center;
 }
+
 .footerLinksWrapper > div {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
-.footerLinksWrapper > div:last-of-type{
-  margin-top: 0px;
+
+.footerLinksWrapper > div:last-of-type {
+  margin-top: 0;
 }
 
 .footerLinks {
@@ -169,7 +170,8 @@ body {
 .footerLinks > li:first-of-type {
   border-left: none;
 }
-.flexBreak{
+
+.flexBreak {
   flex-basis: 100%;
   width: 0;
 }
