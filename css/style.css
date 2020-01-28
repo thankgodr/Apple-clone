@@ -140,6 +140,7 @@ body{
 }
 
 .footerLinksContain > p > a{
+  text-decoration: none;
   color: #08c;
 }
 
@@ -149,6 +150,11 @@ body{
   padding-left: .6em;
   margin-left: .4em;
   text-align: center;
+}
+
+.footerLinks > li > a {
+  text-decoration: none;
+  color: #08c;
 }
 .footerLinks > li:first-of-type {
   border-left: none;
