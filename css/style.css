@@ -120,7 +120,7 @@ body {
   flex: 1;
 }
 
-.footerImageContainer > div > a >img {
+.footerImageContainer > div > a > img {
   width: 100%;
   object-fit: contain;
 }
